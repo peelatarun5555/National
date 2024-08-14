@@ -1,4 +1,4 @@
-
+ 
 
 var $window = $(window), gardenCtx, gardenCanvas, $garden, garden;
 var clientWidth = $(window).width();
@@ -7,7 +7,7 @@ $(function () {
     $loveHeart = $("#loveHeart");
     var a = $loveHeart.width() / 2;
     var b = $loveHeart.height() / 2 - 55;
-    $garden = $("#garden");
+    $garden = $("#garden"); 
     gardenCanvas = $garden[0];
     gardenCanvas.width = $("#loveHeart").width();
     gardenCanvas.height = $("#loveHeart").height();
